@@ -60,3 +60,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "annotate", "~> 3.2"
+gem "hotwire-livereload", "~> 1.3"
+gem "erb_lint", "~> 0.5.0"
+gem "standard", "~> 1.31"
