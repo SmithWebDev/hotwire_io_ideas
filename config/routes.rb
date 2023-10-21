@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'sandbox/test', to: 'sandbox#test'
+  get 'sandbox/attempt2', to: 'sandbox#test2'
+  get 'sandbox/attempt1', to: 'sandbox#test'
   root 'sandbox#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

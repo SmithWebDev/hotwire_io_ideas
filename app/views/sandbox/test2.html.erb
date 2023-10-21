@@ -1,0 +1,34 @@
+<header class="w-full z-30 mb-12 md:mb-0">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="md:flex items-center justify-between h-16 md:h-20">
+      <input type="checkbox" id="click" class="peer" hidden> 
+
+      <div class="flex-wrap flex justify-between py-2">
+        <a href="/" aria-label="Hotwire">
+          <img src="<%= image_path("logo.svg") %>" width="150" height="100" alt="Hotwire.io">
+        </a>
+        <div class="md:hidden">
+          <label for="click">
+            <div class='cursor-pointer w-10 h-10 border border-yellow-500 rounded-lg flex flex-col place-content-center space-y-1 items-center'>
+              <div class='w-8 h-1 bg-yellow-500'></div>
+              <div class='w-8 h-1 bg-yellow-500'></div>
+              <div class='w-8 h-1 bg-yellow-500'></div>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- menu-bar  -->
+      <nav class="md:flex flex-col md:flex-row md:grow grow-0 bg-black md:h-10 max-md:peer-checked:flex max-md:hidden max-md:h-screen md:justify-end max-md:pt-10">
+        <ul class="flex gap-8 md:gap-3 flex-wrap items-center max-md:flex-col">
+          <li><a class="font-medium md:text-sm text-2xl text-slate-300 md:hover:text-white hover:text-yellow-500" href="/ecosystem">Ecosystem</a></li>
+          <li><a class="font-medium md:text-sm text-2xl text-slate-300 md:hover:text-white hover:text-yellow-500" href="/documentation">Documentation</a></li>
+          <li><a class="font-medium md:text-sm text-2xl text-slate-300 md:hover:text-white hover:text-yellow-500" href="/use-cases">Use-Cases</a></li>
+          <li><a class="font-medium md:text-sm text-2xl text-slate-300 md:hover:text-white hover:text-yellow-500" href="/frameworks">Frameworks</a></li>
+          <li><a class="font-medium md:text-sm text-2xl text-slate-300 md:hover:text-white hover:text-yellow-500" href="/community">Community</a></li>
+          <li><a class="font-medium md:text-sm text-2xl text-slate-300 md:hover:text-white hover:text-yellow-500" href="/newsletter">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
